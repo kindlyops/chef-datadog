@@ -27,6 +27,7 @@ EOF
               filegauges: false
               pattern: '*.log'
               recursive: true
+              intentional_fail: true
             }
           ]
         }
