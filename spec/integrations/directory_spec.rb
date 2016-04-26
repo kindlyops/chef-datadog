@@ -20,14 +20,14 @@ EOF
         directory: {
           instances: [
             {
-              directory: '/path/to/directory'
-              name: 'tag_value'
-              dirtagname: 'tag_dirname'
-              filetagname: 'tag_filename'
-              filegauges: false
-              pattern: '*.log'
-              recursive: true
-              intentional_fail: true
+              directory: '/path/to/directory',
+              name: 'tag_value',
+              dirtagname: 'tag_dirname',
+              filetagname: 'tag_filename',
+              filegauges: false,
+              pattern: '*.log',
+              recursive: true,
+              intentional_fail: true,
             }
           ]
         }
